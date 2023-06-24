@@ -14,7 +14,7 @@ import {
   useEnsName,
 } from "wagmi";
 import { useEffect, useState } from "react";
-
+// this is the navbar component.. It also has a custom sign-in button with web3 authentication.
 export default function Navbar({ session }) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
