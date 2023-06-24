@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-
+// the entire layout of the dapp is structured from this component
 const Layout = ({ children }) => {
   return (
     <section className="h-screen flex flex-col justify-start">
