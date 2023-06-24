@@ -1,5 +1,5 @@
 import Layout from "./Layout";
-
+// this component displays the rules and direction we need to follow to use the dapp
 const List = ({ data }) => (
   <ul>
     <li>
