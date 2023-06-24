@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import IdexDtl from "../components/IdexDtl";
 
 import { depositCode, depositAbi } from "../constants/abi_byteCode";
-
+//this is the home of the dapp where the rules and regulations are displayed..
 export default function Home(props) {
   const { query } = props;
 
