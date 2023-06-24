@@ -39,17 +39,7 @@ export default function fd({ user }) {
     console.log(form2);
   }
 
-  /* const { config } = usePrepareContractWrite({
-    address: "0x77e8c0ee52f3ac0e583a59ac499a19c0ee6318a0",
-    abi: depositAbi,
-    functionName: "fund",
-    overrides: {
-      value: ethers.utils.parseEther("1"),
-    },
-  });
-  const { data: data2, isLoading, isSuccess, write } = useContractWrite(config);
- */
-
+  
   const { config } = usePrepareContractWrite({
     address: depositCode,
     abi: depositAbi,
@@ -60,8 +50,7 @@ export default function fd({ user }) {
   function handleSubmit(event) {
     event.preventDefault();
     console.log("yess");
-    /* write?.(); */
-    // submitToApi(formData)
+   
   }
 
   return (
